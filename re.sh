@@ -26,3 +26,5 @@ else
     echo "ERROR: $COMMAND is an invalid service command {restart|reload}"
     exit 1
 fi
+
+#test the lab-test branch
