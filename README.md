@@ -10,3 +10,8 @@ From a command-line call re.sh with two arguments.
 ```sh
 ./re.sh 000* restart
 ```
+
+With lab updates:
+1. User now receives error message if attempting to reload/restart virtual host file that doesn't exist in /etc/apache2/sites-available
+2. System returns list of valid files in error message.
+3. System exits prior to evaluating the reload command if an invalid virtual-host is selected. 

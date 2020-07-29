@@ -11,11 +11,11 @@ VALID_VHOSTS=''
 # Make list of every virtual host file
 VHOSTS=/etc/apache2/sites-available/*.conf
 
-if [ $# -ne 2 ]
-then
-    echo "ERROR: $0 requires two parameters {virtual-host} {restart|reload}"
-    exit 1
-fi
+# if [ $# -ne 2 ]
+# then
+#     echo "ERROR: $0 requires two parameters {virtual-host} {restart|reload}"
+#     exit 1
+# fi
 
 # Loop through the all files in the sites-avaliable directory
 # Build a list of filenames to display in the error message
